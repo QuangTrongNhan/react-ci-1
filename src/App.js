@@ -1,10 +1,10 @@
 import './App.css';
-
+import MemoryCard from './components/MemoryCard'
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <MemoryCard/> 
     </div>
   
     
