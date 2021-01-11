@@ -1,0 +1,23 @@
+.searchBar-container {
+    border: 10 px solid black;
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 15px;
+    width: 70vw;
+    height: 5vh;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn-search {
+    margin-top:15px;
+    margin-left: 15px;
+    height: 5vh;
+    width: 70px;
+    font-size: 18px;
+}

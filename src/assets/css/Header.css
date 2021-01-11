@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title {
+    color: red;
+    text-align: center;
+}
+

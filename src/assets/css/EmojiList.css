@@ -1,0 +1,8 @@
+.emojilist-cont {
+    margin-top: 12px;
+    /* border: 1px solid black; */
+    width: 70vw;
+    height: 80vh;
+    margin-left:15vw;
+    overflow: scroll;
+}
