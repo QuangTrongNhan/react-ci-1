@@ -2,15 +2,15 @@ import "./App.css";
 import { Component } from "react";
 import { Header } from "./components/Header";
 import { SearchBar } from "./components/SearchBar";
-import { Emoji } from "./components/Emoji";
 import { EmojiList } from "./components/EmojiList";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      kw: "",
-    };
+      kw: '',
+    }
+
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -19,14 +19,16 @@ class App extends Component {
   }
 
   render() {
+    console.log("123")
     return (
       <div>
         <Header />
         <SearchBar kw={this.state.kw} change={this.handleChange} />
-        <EmojiList />
+        <EmojiList kw={this.state.kw}/>
       </div>
     );
   }
 }
+
 
 export default App;
