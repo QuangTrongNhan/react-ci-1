@@ -1,13 +1,13 @@
-import './App.css';
-
+import "./App.css";
+import {Header} from "../src/components/Header";
+import {DragPokemon} from "../src/components/DragPokemon";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Header/>
+      <DragPokemon/>
     </div>
-  
-    
   );
 }
 
