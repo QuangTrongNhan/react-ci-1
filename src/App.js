@@ -1,10 +1,11 @@
 import './App.css';
-import {LightBulb} from './components/LightBulb'
+import {showInfo} from './ultis/ultis';
 
 function App() {
+  showInfo()
   return (
     <div>
-       <LightBulb/>
+      <p>Hello</p>
     </div>
   
     
