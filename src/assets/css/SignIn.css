@@ -1,0 +1,58 @@
+.container-form-signin {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 25vw;
+    height: 35vh;
+    margin: 0 auto;
+    margin-top: 15vh;
+    justify-content:center;
+    background-color: #fff;
+    border-radius:25px;
+}
+
+label {
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    font-weight: 600;
+    color: #98B5DE;
+}
+
+input {
+    width: 50%;
+    height: 4vh;
+    border-radius:25px;
+    padding: 2vh;
+    font-size:14px;
+}
+
+
+.con-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.con-row label {
+    margin-right: 1vw;
+}
+
+.cont-btn {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.cont-btn button{
+    font-size:15px;
+    font-family: arial, sans-serif;
+    width: 80%;
+    height: 2vw;
+    background-color: #E75F5B;
+    border-radius: 10px;
+    color: #fff;
+}
