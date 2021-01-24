@@ -1,58 +1,99 @@
-.container-form {
-    display: flex;
-    flex-direction: column;
+
+
+.hero {
+    height: 100vh;
+    width:  100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+     background-size:cover;
+    background-position: center; 
+    position: absolute;
+
+}
+
+.form-box {
     border: 1px solid black;
-    width: 30vw;
-    height: 35vh;
-    margin: 0 auto;
-    margin-top: 15vh;
-    justify-content:center;
-    background-color: #fff;
-    border-radius:25px;
-}
-
-label {
-    font-size: 15px;
-    font-family: arial,sans-serif;
-    font-weight: 600;
-    color: #98B5DE;
-}
-
-input {
-    width: 50%;
-    height: 4vh;
-    border-radius:25px;
-    padding: 2vh;
-    font-size:14px;
+    width: 380px;
+    height: 65vh;
+    position: relative;
+    margin: 7% auto;
+    background-color: #fff  ;
 }
 
 
-.con-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3vh;
+
+.con-img{
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
 }
 
-.con-row label {
-    margin-right: 2vw;
-    width: 100px;
-}
-.cont-btn {
-    margin-top: 1vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.con-img img {
+    
+    width:150px;
 }
 
+.social-icon {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
 
-.cont-btn button{
-    font-size:15px;
-    font-family: arial, sans-serif;
-    width: 80%;
-    height: 2vw;
-    background-color: #E75F5B;
-    border-radius: 10px;
-    color: #fff;
+.social-icon img {
+    width: 30px;
+    margin: 8px 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius:50%;
+}
 
+.input-group {
+    position: absolute;
+    top:180px;
+    width:280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none; /*out line là ẩn đi cái ô ghi mình nhập text vào*/
+    background: transparent;
+}
+
+.check-box {
+    margin: 15px 10px 30px 0;
+    
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+   
+}
+
+.btn-login {
+    width: 85%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.btn-login:hover {
+    
+   background: #7ABFE0;
+}
+button {
+    padding: 8px 0; 
+}
+
+#login {
+    left: 50px;
 }

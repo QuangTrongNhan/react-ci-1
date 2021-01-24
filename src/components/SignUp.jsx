@@ -2,26 +2,37 @@ import "../assets/css/SignUp.css";
 
 function SignUp(props) {
   return (
-    <div className="container-form">
+    <div className="hero">
+      <div className="form-box">
+        <div class="con-img">
+          <img src="./img/user.png" alt="icon user" />
+        </div>
 
-      <div className="con-row">
-        <label htmlFor="">username:</label>
-        <input type="text" />
-      </div>
-
-      <div className="con-row">
-        <label htmlFor="">password:</label>
-        <input type="password" />
-      </div>
-
-      <div className="con-row">
-        <label htmlFor="">Re-password:</label>
-        <input type="password" />
-      </div>
-
-
-      <div className="cont-btn">
-        <button>Sign Up</button>
+        <form id="login" action="" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User id"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Email id"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="password"
+            required
+          />
+          <input type="checkbox" class="check-box" />
+          <span>I agree to the term & conditios</span>
+          <button type="submit" class="btn-login">
+            Register
+          </button>
+        </form>
       </div>
     </div>
   );

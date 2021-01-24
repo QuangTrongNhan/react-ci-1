@@ -5,7 +5,7 @@ class SignIn extends Component {
  
   render() {
     return (
-      <div className="container-form">
+      <div className="hero">
         <div className="form-box">
           <div className="con-img">
             <img src="./img/icon.png" alt="icon to do App" />
@@ -16,7 +16,7 @@ class SignIn extends Component {
             <img src="./img/tw.png" alt="" />
           </div>
 
-          <form action="" className="input-group">
+          <form id="login" action="" className="input-group">
             <input
               type="text"
               className="input-field"

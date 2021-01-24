@@ -4,7 +4,7 @@
 .hero {
     height: 100vh;
     width:  100vw;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ;
      background-size:cover;
     background-position: center; 
     position: absolute;
@@ -16,7 +16,7 @@
     width: 380px;
     height: 60vh;
     position: relative;
-    margin: 10% auto;
+    margin: 7% auto;
     background-color: #fff  ;
 }
 
@@ -88,6 +88,12 @@ span{
     
    background: #7ABFE0;
 }
+
 button {
     padding: 8px 0; 
+}
+
+
+#login {
+    left: 50px;
 }
