@@ -77,7 +77,7 @@ span{
     display: block;
     margin: auto;
     cursor: pointer;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: url("./img/banner.jpg");
     border: none;
     outline: none;
     border-radius: 30px;
