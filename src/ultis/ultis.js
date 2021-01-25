@@ -54,8 +54,21 @@ export function signUp(userIn4mation) {
           });
       })
       .catch((err) => {
-          reject(err);
-      })
-  });    
+        reject(err);
+      });
+  });
+
   
+}
+
+export async function getToDo(userID) {
+  db.collection("todos")
+  .where('userID',"==",userID)
+  .get()
+  .then(data => {
+      console.log(data)
+  })
+  // let toDos = {
+
+  // };
 }

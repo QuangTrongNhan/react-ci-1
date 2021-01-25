@@ -1,10 +1,9 @@
 import "../assets/css/SignUp.css";
-
 function SignUp(props) {
   const {username , email , password , change, change2 , change3 , submit} = props;
   return (
 
-    <div className="hero">
+    <div className="hero" >
 
       <div className="form-box">
         <div class="con-img">
