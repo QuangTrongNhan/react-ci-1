@@ -8,7 +8,7 @@ class SignIn extends Component {
       <div className="hero">
         <div className="form-box">
           <div className="con-img">
-            <img src="./img/icon.png" alt="icon to do App" />
+            <img src='./img/icon.png' alt="icon to do App" />
           </div>
           <div className="social-icon">
             <img src="./img/fb.png" alt="" />

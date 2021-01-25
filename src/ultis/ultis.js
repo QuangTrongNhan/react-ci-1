@@ -48,7 +48,8 @@ export function signUp(userIn4mation) {
             password: password,
           })
           .then((data) => {
-            console.log("Added");
+            res(data);
+            alert("Sign up success !");
             console.log(data.id);
           });
       })
