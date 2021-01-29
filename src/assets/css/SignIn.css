@@ -1,10 +1,7 @@
 
-
-
 .hero {
     height: 100vh;
     width:  100vw;
-  
      background-size:cover;
     background-position: center; 
     position: absolute;
@@ -21,13 +18,12 @@
 }
 
 
-.con-img{
+.con-img-signin{
     width: 100%;
     text-align: center;
 }
 
-.con-img img {
-    width:200px;
+.con-img-signin img {
 }
 
 .social-icon {
@@ -37,8 +33,8 @@
 }
 
 .social-icon img {
+    margin: 10px 15px;
     width: 30px;
-    margin: 0 12px;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
     border-radius:50%;
@@ -46,7 +42,7 @@
 
 .input-group {
     position: absolute;
-    top:200px;
+    top:250px;
     width:280px;
     transition: .5s;
 }
@@ -66,10 +62,10 @@
     
 }
 
+
 span{
     color: #777;
     font-size: 12px;
-   
 }
 
 .btn-login {

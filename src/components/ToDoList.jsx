@@ -8,7 +8,7 @@ class ToDoList extends React.Component {
       <div className="container">
         <div className="cont-user">
           <div className="display-user">
-            <img src="./img/user.png" alt="icon user" />
+            <img className="icon-user" src="./img/user.png" alt="icon user" />
             <i class="fas fa-user"></i>
             <h1>User</h1>
             <h1>Log Out</h1>
@@ -32,7 +32,7 @@ class ToDoList extends React.Component {
 
           <div className="todo-box">
             <div className="header-todo">
-                <h1>Header</h1>
+                <h1 className="header-todo-title">Header</h1>
             </div>
             <div className="content-todo">
                 <h3>go to sleep</h3>

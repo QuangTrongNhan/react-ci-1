@@ -57,18 +57,59 @@ export function signUp(userIn4mation) {
         reject(err);
       });
   });
-
-  
 }
 
-export async function getToDo(userID) {
-  db.collection("todos")
-  .where('userID',"==",userID)
-  .get()
-  .then(data => {
-      console.log(data)
-  })
-  // let toDos = {
-
-  // };
+export function signIn(userIn4mation) {
+  return new Promise((res, reject) => {
+    const { username, password } = userIn4mation;
+    db.collection("users")
+      //chỉ lấy kết quả truy vấn là 1 kết quả ==> limit(1)
+      .where("username", "==", username)
+      .limit(1)
+      .get()
+      .then((querysnapshot) => {
+        const data = [];
+        querysnapshot.forEach(
+          (doc) => {
+          // user.data() is never undefined for query doc snapshots
+          data.push(doc.data());
+         }
+        )
+    
+        if(data[0]['password']== password) {
+          // console.log(data[0]['password'])
+          alert('login success')
+        }else {
+          throw new Error('Login fail !')
+        }
+        res(data);
+        
+      })
+    
+      .catch((err) => {
+        reject(err);
+      });
+  });
 }
+
+// export async function getToDo(userID,todo) {
+//   const {content , title} = todo;
+
+//   db.collection('todos').add({
+//       content: content,
+//       created: created,
+//       isComplete: isComplete,
+//       title: title,
+//       userID: userID,
+//   })
+
+//   db.collection("todos")
+//   .where('userID',"==",userID)
+//   .get()
+//   .then(data => {
+//       console.log(data)
+//   })
+//   // let toDos = {
+
+//   // };
+// }

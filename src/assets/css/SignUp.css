@@ -19,31 +19,14 @@
     background-color: #fff  ;
 }
 
-
-
 .con-img{
-    margin-top: 8px;
+    margin-top: 20px;
     width: 100%;
     text-align: center;
 }
 
 .con-img img {
-    
     width:150px;
-}
-
-.social-icon {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.social-icon img {
-    width: 30px;
-    margin: 8px 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
-    cursor: pointer;
-    border-radius:50%;
 }
 
 .input-group {
@@ -94,6 +77,6 @@ button {
     padding: 8px 0; 
 }
 
-#login {
+#signup {
     left: 50px;
 }
