@@ -1,0 +1,34 @@
+.container-boxchat {
+    width: 70%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.boxchat-header{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+}
+
+.boxchat-body{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.boxchat-footer{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+}
+
+.boxchat-footer input{
+    width: 90%;
+    height: 90%;
+    outline: none;
+}
+
+.boxchat-footer button{
+    width: 9.5%;
+    height: 90%;
+}
