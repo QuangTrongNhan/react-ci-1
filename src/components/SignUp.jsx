@@ -7,16 +7,16 @@ function SignUp(props) {
     <div className="hero" >
 
       <div className="form-box">
-        <div class="con-img">
+        <div className="con-img">
           <img src="./img/user.png" alt="icon user" />
         </div>
 
-        <form id="signup" action="" class="input-group" onSubmit={submit}>
-          <input  type="text" class="input-field" placeholder="User id" required onChange={change} value={username} />
-          <input  type="text" class="input-field" placeholder="Email id" required onChange={change2} value={email}/>
-          <input type="password"class="input-field"placeholder="password"required onChange={change3} value={password}/>
-          <input type="checkbox" class="check-box" /> <span>I agree to the term & conditios</span>
-          <button type="submit" class="btn-login"> Register</button>
+        <form id="signup" action="" className="input-group" onSubmit={submit}>
+          <input  type="text" className="input-field" placeholder="User id" required onChange={change} value={username} />
+          <input  type="text" className="input-field" placeholder="Email id" required onChange={change2} value={email}/>
+          <input type="password"className="input-field"placeholder="password"required onChange={change3} value={password}/>
+          <input type="checkbox" className="check-box" /> <span>I agree to the term & conditios</span>
+          <button type="submit" className="btn-login"> Register</button>
         </form>
 
       </div>

@@ -34,7 +34,11 @@ class App extends React.Component {
 
     this.handleSubmitSignUp = this.handleSubmitSignUp.bind(this);
     this.handleSubmitSignIn = this.handleSubmitSignIn.bind(this);
+
   }
+
+
+
 
   handleChange(ev) {
     this.setState({
